@@ -1,0 +1,203 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top right, rgb(20, 20, 160), purple);
+}
+#root {
+  margin-top: 4rem;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 15rem;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(14, 206, 240);
+  padding: 0.3rem 0 1rem;
+  border-radius: 10px;
+}
+
+#options {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+}
+#menu {
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 35%;
+  cursor: pointer;
+  z-index: 1;
+}
+#previous {
+  position: absolute;
+  left: 15px;
+  top: 45%;
+  width: 1.2rem;
+  color: grey;
+  cursor: pointer;
+  z-index: 1;
+}
+#next {
+  position: absolute;
+  right: 15px;
+  top: 45%;
+  width: 1.2rem;
+  color: grey;
+  cursor: pointer;
+  z-index: 1;
+}
+#play-pause {
+  position: absolute;
+  bottom: 15px;
+  left: 45%;
+  width: 1.5rem;
+  color: grey;
+  cursor: pointer;
+  z-index: 1;
+}
+#select-option {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(14, 206, 240);
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  cursor: pointer;
+  z-index: 1;
+}
+.Screen {
+  width: 14rem;
+  height: 14rem;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/004/902/495/original/mountain-landscape-square-composition-vector.jpg);
+  background-size: cover;
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: relative;
+}
+#Sidebar {
+  width: 50%;
+  height: inherit;
+  border-radius: 10px 0 0 10px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 0;
+}
+#Sidebar p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+#Sidebar p i {
+  position: relative;
+  top: 2px;
+}
+#Sidebar .fa-chevron-right {
+  display: none;
+}
+.active {
+  background-color: rgb(35, 94, 223);
+  color: white;
+}
+#Sidebar .active .fa-chevron-right {
+  display: inline-block;
+}
+.inside-menu {
+  width: 14rem;
+  height: 14rem;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: relative;
+}
+.sidebar-list-item {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-list-item img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    width: 12rem;
+  }
+  #options {
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 50%;
+  }
+  #menu {
+    font-size: 0.8rem;
+    top: 18px;
+    left: 35%;
+  }
+  #previous {
+    left: 15px;
+    top: 46%;
+    width: 0.9rem;
+  }
+  #next {
+    right: 15px;
+    top: 46%;
+    width: 0.9rem;
+  }
+  #play-pause {
+    bottom: 12px;
+    left: 45%;
+    width: 1.2rem;
+  }
+  #select-option {
+    width: 3.5rem;
+    height: 3.5rem;
+    left: 30%;
+    top: 30%;
+  }
+  .Screen {
+    width: 11rem;
+    height: 11rem;
+  }
+  #Sidebar h2 {
+    font-size: 1rem;
+  }
+  #Sidebar p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  #Sidebar p i {
+    top: 0;
+  }
+  .inside-menu {
+    width: 11rem;
+    height: 11rem;
+  }
+  .sidebar-list-item img {
+    width: 80px;
+    height: 80px;
+  }
+  .sidebar-list-item h2 {
+    font-size: 1rem;
+  }
+}
