@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Zingtouch_IPOD/static/css/main.392fda13.chunk.css",
+    "main.js": "/Zingtouch_IPOD/static/js/main.473711ae.chunk.js",
+    "main.js.map": "/Zingtouch_IPOD/static/js/main.473711ae.chunk.js.map",
+    "runtime-main.js": "/Zingtouch_IPOD/static/js/runtime-main.638dc93c.js",
+    "runtime-main.js.map": "/Zingtouch_IPOD/static/js/runtime-main.638dc93c.js.map",
+    "static/js/2.9afad020.chunk.js": "/Zingtouch_IPOD/static/js/2.9afad020.chunk.js",
+    "static/js/2.9afad020.chunk.js.map": "/Zingtouch_IPOD/static/js/2.9afad020.chunk.js.map",
+    "index.html": "/Zingtouch_IPOD/index.html",
+    "static/css/main.392fda13.chunk.css.map": "/Zingtouch_IPOD/static/css/main.392fda13.chunk.css.map",
+    "static/js/2.9afad020.chunk.js.LICENSE.txt": "/Zingtouch_IPOD/static/js/2.9afad020.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.638dc93c.js",
+    "static/js/2.9afad020.chunk.js",
+    "static/css/main.392fda13.chunk.css",
+    "static/js/main.473711ae.chunk.js"
+  ]
+}
